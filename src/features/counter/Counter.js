@@ -30,7 +30,7 @@ function Counter() {
       </div>
 
       <div>
-        <input 
+        <input
           type="text"
           value={incrementValue}
           onChange={(e) => setIncrementValue(e.target.value)}
